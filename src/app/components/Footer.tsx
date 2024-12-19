@@ -1,11 +1,10 @@
+
+
 import React from 'react';
 
 
-interface FooterProps  {
-  // Add any custom props if needed
-}
 
-const Footer: React.FC<FooterProps> = () => {
+const Footer  = () => {
   return (
     <footer className="bg-white-900 text-black p-8">
       <div className="container mx-auto">
